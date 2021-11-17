@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - OculusRefreshController
     - OvrAvatar
     - OvrAvatarLocalDriver
+    - ShowCameras
     - prvncher.MRTK_Online.HandTracking.HandSyncModelController
     - prvncher.MRTK_Online.HandTracking.OculusHandTrackingSync
     - prvncher.MRTK_Online.NetworkHelpers.DisableMeshIfLocallyOwned
@@ -136,6 +137,7 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
@@ -143,7 +145,6 @@ ScriptsOnlyBuild:
     Unity.ShaderGraph.Editor.dll:
     - UnityEditor.Graphing.GraphObject
     - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
-    - UnityEditor.ShaderGraph.SubGraphAsset
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -171,6 +172,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
@@ -211,6 +213,8 @@ ScriptsOnlyBuild:
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -271,6 +275,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2972}
     - Class: 114
+      Script: {instanceID: 3130}
+    - Class: 114
       Script: {instanceID: 3148}
     - Class: 114
       Script: {instanceID: 3164}
@@ -310,6 +316,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4264}
     - Class: 114
       Script: {instanceID: 4316}
+    - Class: 114
+      Script: {instanceID: 4396}
     - Class: 114
       Script: {instanceID: 4398}
     - Class: 114
@@ -498,6 +506,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11130}
     - Class: 114
       Script: {instanceID: 11162}
+    - Class: 114
+      Script: {instanceID: 52692}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -4887,6 +4897,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
+  - hash:
+      serializedVersion: 2
+      Hash: eeae2fff66ae1ba2bc875825025da2da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowCameras
   platform: 13
   scenePathNames:
   - Assets/ProjectAssets/Scenes/SampleScene.unity
