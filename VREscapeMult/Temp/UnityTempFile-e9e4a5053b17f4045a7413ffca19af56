@@ -1,0 +1,628 @@
+/target:library
+/out:Temp/Microsoft.MixedReality.Toolkit.SDK.dll
+/nowarn:0169
+/nowarn:0649
+/refout:Temp/Microsoft.MixedReality.Toolkit.SDK.dll.ref
+/deterministic
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Async.dll
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:C:/VREscape/VREscapeRoom/VREscapeMult/Library/PackageCache/com.normalvr.normcore@2.1.10/Editor/Normcore.Editor.dll
+/reference:C:/VREscape/VREscapeRoom/VREscapeMult/Library/PackageCache/com.normalvr.normcore@2.1.10/Runtime/UnityEditor/Normcore.dll
+/reference:C:/VREscape/VREscapeRoom/VREscapeMult/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll
+/reference:C:/VREscape/VREscapeRoom/VREscapeMult/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/log4netPlastic.dll
+/reference:C:/VREscape/VREscapeRoom/VREscapeMult/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/unityplastic.dll
+/reference:C:/VREscape/VREscapeRoom/VREscapeMult/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll
+/reference:C:/VREscape/VREscapeRoom/VREscapeMult/Library/PackageCache/com.unity.render-pipelines.core@10.5.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/2020.3.15f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EGL
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYADS_RUNTIME
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WWW
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_STANDARD_2_0
+/define:NORMCORE
+/define:OCULUSINTEGRATION_PRESENT
+/define:PLATFORM_ANDROID
+/define:PLATFORM_EXTENDS_VULKAN_DEVICE
+/define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+/define:PLATFORM_SUPPORTS_MONO
+/define:SCENE_TEMPLATE_MODULE
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_15
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:UNITY_ANDROID_SUPPORTS_SHADOWFILES
+/define:UNITY_ASSERTIONS
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_TEAM_LICENSE
+/define:UNITY_UNITYADS_API
+/define:USE_SEARCH_ENGINE_API
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\AssemblyInfo.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\ColorPicker\ColorPicker.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Dock\Dock.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Dock\DockPosition.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Dock\Dockable.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Dock\DockingState.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Elastic\Scripts\ElasticConfiguration.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Elastic\Scripts\ElasticTypes.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Elastic\Scripts\ElasticsManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Elastic\Scripts\IElasticSystem.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Elastic\Scripts\LinearElasticSystem.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Elastic\Scripts\QuaternionElasticSystem.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Elastic\Scripts\VolumeElasticSystem.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Features\Utilities\StabilizationPlaneModifier.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Features\Utilities\WorldAnchorManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Joystick\JoystickController.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\Joystick\JoystickMode.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\MixedRealityKeyboard\KeyboardInputFieldBase.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\MixedRealityKeyboard\MRTKTMPInputField.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\MixedRealityKeyboard\MRTKUGUIInputField.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\MixedRealityKeyboard\MixedRealityKeyboard.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\MixedRealityKeyboard\MixedRealityKeyboardBase.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\MixedRealityKeyboard\TMP_KeyboardInputField.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\MixedRealityKeyboard\UI_KeyboardInputField.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\MixedRealityKeyboardPreview\MixedRealityKeyboardPreview.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\AxisSlider.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\CapsLockHighlight.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\KeyboardKeyFunc.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\KeyboardValueKey.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\NonNativeKeyboard.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\NonNativeKeyboardTouchAssistant.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\SliderInputField.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\SymbolDisableHighlight.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\SymbolKeyboard.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\NonNativeKeyboard\Scripts\UICollection.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\ServiceManagers\Boundary\Scripts\BoundarySystemManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\ServiceManagers\Camera\Scripts\CameraSystemManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\ServiceManagers\Diagnostics\Scripts\DiagnosticsSystemManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\ServiceManagers\Input\Scripts\InputSystemManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\ServiceManagers\SpatialAwareness\Scripts\SpatialAwarenessSystemManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\ServiceManagers\Support\Scripts\BaseServiceManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\ServiceManagers\Teleport\Scripts\TeleportSystemManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\SpatialAwareness\SurfaceMeshesToPlanes.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\StepSlider\StepSlider.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Experimental\TouchSlider\TouchSlider.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Audio\Influencers\AudioInfluencerController.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Audio\Influencers\AudioLoFiEffect.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Audio\Influencers\AudioLoFiSourceQuality.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Audio\Influencers\AudioOccluder.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Audio\TextToSpeech.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Events\HandPanEventData.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Events\InputActionUnityEvent.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Events\ManipulationEvent.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Events\ManipulationEventData.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Events\PanUnityEvent.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Events\PointerUnityEvent.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Events\TouchEvent.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\BaseEyeFocusHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\BaseFocusHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\BaseInputHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\ConstraintManager.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\FaceUserConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\FixedDistanceConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\FixedRotationToUserConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\FixedRotationToWorldConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\MaintainApparentSizeConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\MinMaxScaleConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\MoveAxisConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\RotationAxisConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Constraints\TransformConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\ControllerPoseSynchronizer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\CursorContextManipulationHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\CursorContextObjectManipulator.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\DictationHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\EyeTrackingTarget.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\FocusHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\InputActionHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Manipulation\ManipulationHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Manipulation\ManipulationMoveLogic.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Manipulation\TwoHandRotateLogic.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\Manipulation\TwoHandScaleLogic.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\ObjectManipulator.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\PointerClickHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\PointerHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\SpeechInputHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\TeleportHotspot.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\Handlers\TouchHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Input\InputSimulationIndicators.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\IInteractableHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableAudioReceiver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableEvent.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnClickReceiver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnFocusReceiver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnGrabReceiver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnHoldReceiver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnPressReceiver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnToggleReceiver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnTouchReceiver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableReceiver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\InteractableReceiverList.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\ReceiverBase.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Events\ReceiverBaseMonoBehavior.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Interactable.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\InteractableToggleCollection.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Layout\ButtonBackgroundSize.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Layout\ButtonBackgroundSizeOffset.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Layout\ButtonBorder.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Layout\ButtonCollider.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Layout\ButtonLayout.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Layout\ButtonSize.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Layout\ButtonSizeOffset.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Profile\InteractableProfileItem.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Selection\SelectionModes.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\Simulation\InteractablePointerSimulator.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Interactable\Scripts\States\InteractableStates.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Profiles\Dwell\DwellProfile.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\AppBar\AppBar.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\AppBar\AppBarButton.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundingBox\BoundingBox.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundingBox\BoundingBoxHelper.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundingBox\IBoundsTargetProvider.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\BoundsControl.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\BoundsControlTypes.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\BoxDisplay.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\BoxDisplayConfiguration.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\HandlesBaseConfiguration.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\LinksConfiguration.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\PerAxisHandlesConfiguration.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\RotationHandlesConfiguration.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\ScaleHandlesConfiguration.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\TranslationHandlesConfiguration.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\HandlesBase.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\Links.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\PerAxisHandles.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\ProximityEffect\IProximityEffectObjectProvider.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\ProximityEffect\ProximityEffect.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\ProximityEffect\ProximityEffectConfiguration.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\RotationHandles.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\ScaleHandles.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\TranslationHandles.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\BoundsControl\Visuals\VisualUtils.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Buttons\ButtonConfigHelper.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Buttons\ButtonIconSet.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Buttons\ButtonIconStyle.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Collections\BaseObjectCollection.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Collections\CollectionEnums\LayoutAlignment.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Collections\CollectionEnums\LayoutAnchor.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Collections\CollectionEnums\LayoutOrder.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Collections\CollectionEnums\ObjectOrientationSurfaceType.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Collections\GridObjectCollection.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Collections\ObjectCollectionNode.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Collections\ScatterObjectCollection.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Collections\TileGridObjectCollection.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Controllers\MixedRealityControllerInfo.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Controllers\MixedRealityControllerVisualizer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Controllers\WindowsMixedRealityControllerVisualizer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\AnimatedCursor.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\BaseCursor.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\CursorContextInfo.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\CursorModifier.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\FingerCursor.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\InteractiveMeshCursor.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\MeshCursor.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\ObjectCursor.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\SpriteCursor.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Cursors\TeleportCursor.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dialog\Dialog.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dialog\DialogButton.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dialog\DialogButtonType.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dialog\DialogResult.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dialog\DialogShell.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dialog\DialogState.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dwell\BaseDwellPressableButton.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dwell\DwellHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dwell\DwellStateType.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dwell\DwellUnityEvent.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Dwell\ToggleDwellPressableButton.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\HandCoach\HandInteractionHint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\HandCoach\MoveToTarget.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\HandCoach\RotateAroundPoint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Loader\LoaderController.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\BaseControllerPointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\BaseMousePointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\CurvePointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\DefaultPointerMediator.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\DefaultPrimaryPointerSelector.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\GGVPointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\LinePointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\MousePointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\ParabolicTeleportPointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\PokePointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\ScreenSpaceMousePointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\ShellHandRayPointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\SpherePointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\SpherePointerGrabPoint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\SpherePointerVisual.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\TeleportPointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Pointers\TouchPointer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\PressableButtons\PhysicalPressEventRouter.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\PressableButtons\PressableButton.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\PressableButtons\PressableButtonHoloLens2.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\PressableButtons\SubmitEventRouter.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\ProgressIndicators\IProgressIndicator.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorLoadingBar.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorObjectDisplay.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorOrbsRotator.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorState.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\PulseShader\PulseShaderHandMeshHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\PulseShader\PulseShaderHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\PulseShader\PulseShaderSpatialMeshHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\RiggedHandVisualizer\RiggedHandVisualizer.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\ScrollingObjectCollection\ScrollingObjectCollection.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\ScrollingObjectCollection\ScrollingObjectCollectionNode.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Slate\FollowMeToggle.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Slate\HandInteractionPanZoom.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Sliders\PinchSlider.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Sliders\SliderAxis.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Sliders\SliderEvent.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Sliders\SliderEventData.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Sliders\SliderSounds.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\DestroyOnAnimationComplete.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\IToolTipBackground.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\IToolTipHighlight.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\SpeechConfirmationTooltip.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\ToolTip.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\ToolTipBackgroundBlob.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\ToolTipBackgroundCorners.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\ToolTipBackgroundMesh.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\ToolTipConnector.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\ToolTipLineHighlight.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\ToolTipSpawner.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\ToolTipUtility.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorFollowType.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorOrientType.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorPivotDirection.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorPivotMode.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\DisplayMode.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ToolTipAttachPoint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\UnityUI\ColorChangerUnityUI.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\Billboard.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\Easing.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\FeaturesPanelVisuals.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\GazeHandHelper.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\InputRecordingControls.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\InteractableHighlight.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\InteractableOnFocus.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\PointerBehaviorControls.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\PrefabSpawner.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\RectTransformCubeScaler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\ToggleHandVisualisation.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\Utilities\UIMaterialInstantiator.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\Core\Theme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeDefinition.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeEaseSettings.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeProperty.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\Core\ThemePropertyValue.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\Core\ThemePropertyValueTypes.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeStateProperty.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\Core\VisualProfile.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\States\BaseStateModel.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\States\State.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\States\States.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableActivateTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableAnimatorTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableAudioTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableColorChildrenTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableColorTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableGrabScaleTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableMaterialTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableOffsetTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableRotationTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableScaleTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableShaderTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableStringTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableTextureTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableThemeBase.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableThemeShaderUtils.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\ScaleOffsetColorTheme.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\DefaultTransformSmoothingLogic.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\HeadPositionOffset.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\ITransformSmoothingLogic.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\InputRayUtils.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\PointerUtils.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Smoothing.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\ConstantViewSize.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\ControllerFinder.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\DirectionalIndicator.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\Follow.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\HandConstraint.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\HandConstraintPalmUp.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\InBetween.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\Momentum.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\Orbital.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\Overlap.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\RadialView.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\Solver.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\SolverHandler.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\SurfaceMagnetism.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\Solvers\TapToPlace.cs
+C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209\SDK\Features\Utilities\SpatialMeshExporter.cs
