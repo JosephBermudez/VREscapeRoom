@@ -166,7 +166,7 @@
 89-->[:unityLibrary] C:\VREscape\VREscapeRoom\VREscapeMult\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:9-84:68
 90            android:name="unity.build-id"
 90-->[:unityLibrary] C:\VREscape\VREscapeRoom\VREscapeMult\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:83:13-42
-91            android:value="052834ad-1b76-4124-8ec1-931d342a7998" />
+91            android:value="8026a6f0-71af-4dad-8295-e43553668636" />
 91-->[:unityLibrary] C:\VREscape\VREscapeRoom\VREscapeMult\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:84:13-65
 92        <meta-data
 92-->[:unityLibrary] C:\VREscape\VREscapeRoom\VREscapeMult\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:9-87:35
