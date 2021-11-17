@@ -152,7 +152,7 @@
 82-->C:\VREscape\VREscapeRoom\VREscapeMult\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:18:5-101
 83            android:name="unity.build-id"
 83-->C:\VREscape\VREscapeRoom\VREscapeMult\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:18:16-45
-84            android:value="8026a6f0-71af-4dad-8295-e43553668636" />
+84            android:value="c0ab8f61-c7bb-4082-9846-489e2cc54ec1" />
 84-->C:\VREscape\VREscapeRoom\VREscapeMult\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:18:46-98
 85        <meta-data
 85-->C:\VREscape\VREscapeRoom\VREscapeMult\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:19:5-87

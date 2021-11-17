@@ -15,7 +15,7 @@
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
     <meta-data android:name="notch.config" android:value="portrait|landscape" />
-    <meta-data android:name="unity.build-id" android:value="8026a6f0-71af-4dad-8295-e43553668636" />
+    <meta-data android:name="unity.build-id" android:value="c0ab8f61-c7bb-4082-9846-489e2cc54ec1" />
     <meta-data android:name="com.oculus.handtracking.frequency" android:value="LOW" />
     <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only" />
     <meta-data android:name="com.unity.xr.oculus.LowOverheadMode" android:value="false" />
