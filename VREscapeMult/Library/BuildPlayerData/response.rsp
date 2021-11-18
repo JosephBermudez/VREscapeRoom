@@ -45,6 +45,7 @@
 -a="C:\VREscape\VREscapeRoom\VREscapeMult\Library\PlayerScriptAssemblies\Unity.XR.Oculus.dll"
 -a="C:\VREscape\VREscapeRoom\VREscapeMult\Library\PlayerScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll"
 -a="C:\VREscape\VREscapeRoom\VREscapeMult\Library\PlayerScriptAssemblies\Oculus.LipSync.dll"
+-a="C:\VREscape\VREscapeRoom\VREscapeMult\Library\PlayerScriptAssemblies\Unity.Postprocessing.Runtime.dll"
 -a="C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT\Newtonsoft.Json.dll"
 -a="C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Portable\Newtonsoft.Json.dll"
 -a="C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.normalvr.normcore@2.1.10\Runtime\Standalone\Normcore.dll"
