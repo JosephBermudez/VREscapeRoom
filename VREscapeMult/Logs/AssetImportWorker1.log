@@ -3283,3 +3283,800 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012231 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3454ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (3224ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (2184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (1616ms)
+				ProcessInitializeOnLoadMethodAttributes (372ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.4 MB.
+System memory in use after: 230.4 MB.
+
+Unloading 191 unused Assets to reduce memory usage. Loaded Objects now: 5768.
+Total: 7.499000 ms (FindLiveObjects: 0.873300 ms CreateObjectMapping: 0.241700 ms MarkObjects: 5.035600 ms  DeleteObjects: 1.346900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.511 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3512ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (3285ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (2198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (1607ms)
+				ProcessInitializeOnLoadMethodAttributes (392ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.2 MB.
+System memory in use after: 230.2 MB.
+
+Unloading 191 unused Assets to reduce memory usage. Loaded Objects now: 5772.
+Total: 6.469700 ms (FindLiveObjects: 0.682400 ms CreateObjectMapping: 0.301500 ms MarkObjects: 4.109000 ms  DeleteObjects: 1.374100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.220 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3221ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (2997ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1975ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (1452ms)
+				ProcessInitializeOnLoadMethodAttributes (351ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.4 MB.
+System memory in use after: 230.4 MB.
+
+Unloading 191 unused Assets to reduce memory usage. Loaded Objects now: 5776.
+Total: 6.575400 ms (FindLiveObjects: 0.715500 ms CreateObjectMapping: 0.255200 ms MarkObjects: 4.133600 ms  DeleteObjects: 1.468000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3292ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (3076ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (2002ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (1460ms)
+				ProcessInitializeOnLoadMethodAttributes (359ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.4 MB.
+System memory in use after: 230.4 MB.
+
+Unloading 191 unused Assets to reduce memory usage. Loaded Objects now: 5780.
+Total: 6.258100 ms (FindLiveObjects: 0.630100 ms CreateObjectMapping: 0.217500 ms MarkObjects: 4.072000 ms  DeleteObjects: 1.337100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014323 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3423ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (3197ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (2117ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (1558ms)
+				ProcessInitializeOnLoadMethodAttributes (376ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.4 MB.
+System memory in use after: 230.5 MB.
+
+Unloading 191 unused Assets to reduce memory usage. Loaded Objects now: 5784.
+Total: 9.365400 ms (FindLiveObjects: 0.984200 ms CreateObjectMapping: 0.808700 ms MarkObjects: 6.006400 ms  DeleteObjects: 1.563200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3526ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (3294ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (2170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (1539ms)
+				ProcessInitializeOnLoadMethodAttributes (436ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.64 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.4 MB.
+System memory in use after: 230.5 MB.
+
+Unloading 191 unused Assets to reduce memory usage. Loaded Objects now: 5788.
+Total: 8.290400 ms (FindLiveObjects: 1.439400 ms CreateObjectMapping: 0.700600 ms MarkObjects: 4.810100 ms  DeleteObjects: 1.338000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3258.680181 seconds.
+  path: Assets/External Assets/Backpack
+  artifactKey: Guid(8003a671831310044a03b0e364947a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack using Guid(8003a671831310044a03b0e364947a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92759bfb3ea9f55a8a8794b57a1fc0d0') in 0.017176 seconds 
+  Import took 0.029775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.778377 seconds.
+  path: Assets/External Assets/Backpack/source
+  artifactKey: Guid(09c105e793acbf546add3ca754d0dc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/source using Guid(09c105e793acbf546add3ca754d0dc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c006e4c6b7e65e22df1e0430b069f180') in 0.007339 seconds 
+  Import took 0.016195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075520 seconds.
+  path: Assets/External Assets/Backpack/source/PackLP.fbx
+  artifactKey: Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/source/PackLP.fbx using Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f8fc3e21b400e4617e71f8a7c6e44a') in 0.249463 seconds 
+  Import took 0.265070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.627040 seconds.
+  path: Assets/External Assets/Backpack/source/PackLP.fbx
+  artifactKey: Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/source/PackLP.fbx using Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a369bc5f1826c0acb8f3afbf45c2ed50') in 0.034304 seconds 
+  Import took 0.042314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.548828 seconds.
+  path: Assets/External Assets/Backpack/source/PackLP.fbx
+  artifactKey: Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/source/PackLP.fbx using Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5bcf8614aef3a3c35861dcb231a064') in 0.028993 seconds 
+  Import took 0.036697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/External Assets/Backpack/source/default.mat
+  artifactKey: Guid(0ce3c91fda4e116469afc1c29423ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/source/default.mat using Guid(0ce3c91fda4e116469afc1c29423ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb5833201d2d44a4f2c2aa56f3028cd') in 0.022454 seconds 
+  Import took 0.035161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.040687 seconds.
+  path: Assets/External Assets/Backpack/source/PackLP.fbx
+  artifactKey: Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/source/PackLP.fbx using Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a812ca823c958b888dd2232dde4f9f') in 0.029306 seconds 
+  Import took 0.037617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.128300 seconds.
+  path: Assets/External Assets/Backpack/source/PackLP.fbx
+  artifactKey: Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/source/PackLP.fbx using Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb044f1fb1c7845869b402a17afbdcd1') in 0.046163 seconds 
+  Import took 0.055741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.317437 seconds.
+  path: Assets/External Assets/Backpack/source/PackLP.fbx
+  artifactKey: Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/source/PackLP.fbx using Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc69bbd66e9a7a4f3ecf333f96964be') in 0.025657 seconds 
+  Import took 0.033614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006692 seconds.
+  path: Assets/External Assets/Backpack/source/PackLP.fbx
+  artifactKey: Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/source/PackLP.fbx using Guid(5f58e324d2627734c925bd123c197ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc69bbd66e9a7a4f3ecf333f96964be') in 0.038630 seconds 
+  Import took 0.046261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.859956 seconds.
+  path: Assets/External Assets/Backpack/textures
+  artifactKey: Guid(eb07a33b41ac7344ca683789820386af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/textures using Guid(eb07a33b41ac7344ca683789820386af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27f895e0497ee252199ac6d9eb7b082') in 0.007697 seconds 
+  Import took 0.015627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056813 seconds.
+  path: Assets/External Assets/Backpack/textures/ArmyPack_Albedo.png
+  artifactKey: Guid(712fd9203986fda48966b6f2ad0eea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/textures/ArmyPack_Albedo.png using Guid(712fd9203986fda48966b6f2ad0eea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604db114a9c7bf49bb3ce517661c44c8') in 0.189807 seconds 
+  Import took 0.199164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/External Assets/Backpack/textures/ArmyPack_Metal.png
+  artifactKey: Guid(2864a3b8f0b25434a821ec7e5d7c1e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/textures/ArmyPack_Metal.png using Guid(2864a3b8f0b25434a821ec7e5d7c1e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c0ff1111c77d40b3bac920d0ab80c6') in 0.065555 seconds 
+  Import took 0.073871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/External Assets/Backpack/textures/ArmyPack_Roughness.png
+  artifactKey: Guid(83fe4f98e3030b04095d0c98b0528375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/textures/ArmyPack_Roughness.png using Guid(83fe4f98e3030b04095d0c98b0528375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040bae61d8fcf419d079e7ceaab39735') in 0.077961 seconds 
+  Import took 0.085484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/External Assets/Backpack/textures/armypack_occlusioncavity.png
+  artifactKey: Guid(644daf0a31ec8754fa082073451b4623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/textures/armypack_occlusioncavity.png using Guid(644daf0a31ec8754fa082073451b4623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70836c6c2fa18cc03f5ac64da920dc04') in 0.171718 seconds 
+  Import took 0.179262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/External Assets/Backpack/textures/armypack_normalscombined.png
+  artifactKey: Guid(090a0a3a9d6e276429e47c76035af41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/textures/armypack_normalscombined.png using Guid(090a0a3a9d6e276429e47c76035af41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e265752914e19e06db542b0e78028a') in 0.055503 seconds 
+  Import took 0.062950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.475486 seconds.
+  path: Assets/External Assets/Backpack/textures/armypack_normalscombined.png
+  artifactKey: Guid(090a0a3a9d6e276429e47c76035af41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Backpack/textures/armypack_normalscombined.png using Guid(090a0a3a9d6e276429e47c76035af41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93aabc3886c0da4373203e4a81e29b37') in 0.083246 seconds 
+  Import took 0.090954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 696.397256 seconds.
+  path: Assets/ProjectAssets/PlayerOutside.cs
+  artifactKey: Guid(ce560f082bfde5047a8228d26eb74727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectAssets/PlayerOutside.cs using Guid(ce560f082bfde5047a8228d26eb74727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538716bd997f90442c2e7fdd8861203d') in 0.010012 seconds 
+  Import took 0.019192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000721 seconds.
+  path: Assets/ProjectAssets/PlayerOutside.cs
+  artifactKey: Guid(ce560f082bfde5047a8228d26eb74727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectAssets/PlayerOutside.cs using Guid(ce560f082bfde5047a8228d26eb74727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538716bd997f90442c2e7fdd8861203d') in 0.005486 seconds 
+  Import took 0.015140 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.456170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.039 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4040ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (3770ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (2547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (1453ms)
+				ProcessInitializeOnLoadMethodAttributes (913ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.4 MB.
+System memory in use after: 230.4 MB.
+
+Unloading 191 unused Assets to reduce memory usage. Loaded Objects now: 5828.
+Total: 14.348100 ms (FindLiveObjects: 2.084500 ms CreateObjectMapping: 0.493500 ms MarkObjects: 9.720200 ms  DeleteObjects: 2.046700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 224.040819 seconds.
+  path: Assets/External Assets/Mining Lamp
+  artifactKey: Guid(380902fbf296754488006dca204a231f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp using Guid(380902fbf296754488006dca204a231f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872ca684f1b44d4dfb8d13259bbeb3f7') in 0.014560 seconds 
+  Import took 0.024248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047616 seconds.
+  path: Assets/External Assets/Mining Lamp/MiningLamp.fbx
+  artifactKey: Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/MiningLamp.fbx using Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9b511f297ed09b1610c1a1ff687217') in 0.224958 seconds 
+  Import took 0.235018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.119882 seconds.
+  path: Assets/External Assets/Mining Lamp/MiningLamp.fbx
+  artifactKey: Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/MiningLamp.fbx using Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e736b7f49af640ed6ccb68632db9bb07') in 0.032721 seconds 
+  Import took 0.040979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.940073 seconds.
+  path: Assets/External Assets/Mining Lamp/MiningLamp.fbx
+  artifactKey: Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/MiningLamp.fbx using Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2be9a4579439d69be44ae22954252c') in 0.026232 seconds 
+  Import took 0.034116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/External Assets/Mining Lamp/Tripod_Light.mat
+  artifactKey: Guid(a10510813abe86d439a93ea565894f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/Tripod_Light.mat using Guid(a10510813abe86d439a93ea565894f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be6eea826e142dab328d9dc90816987') in 0.019853 seconds 
+  Import took 0.027401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.466656 seconds.
+  path: Assets/External Assets/Mining Lamp/MiningLamp.fbx
+  artifactKey: Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/MiningLamp.fbx using Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526fe8a362dbd4dbce1694a884108ab7') in 0.036982 seconds 
+  Import took 0.048682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.573069 seconds.
+  path: Assets/External Assets/Mining Lamp/MiningLamp.fbx
+  artifactKey: Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/MiningLamp.fbx using Guid(c7dfb2b4da7ae0d489d821c15728a0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31339cb7e933b802eff773f11b542243') in 0.029938 seconds 
+  Import took 0.038669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.615413 seconds.
+  path: Assets/External Assets/Mining Lamp/textures/Tripod_Light_albedo.jpeg
+  artifactKey: Guid(1f7195f69e852984aad04bac96e80402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/textures/Tripod_Light_albedo.jpeg using Guid(1f7195f69e852984aad04bac96e80402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bc55e9d94a830bcaae295608548541') in 0.070952 seconds 
+  Import took 0.079042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/External Assets/Mining Lamp/textures/Tripod_Light_AO.jpeg
+  artifactKey: Guid(39d24dbdd9d9642468ac17a94e581909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/textures/Tripod_Light_AO.jpeg using Guid(39d24dbdd9d9642468ac17a94e581909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ed74e151b8f0894516a96c981aca5a') in 0.060621 seconds 
+  Import took 0.068222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/External Assets/Mining Lamp/textures/Tripod_Light_roughness.jpeg
+  artifactKey: Guid(a2a3087588ed8c64ca1597ff49faec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/textures/Tripod_Light_roughness.jpeg using Guid(a2a3087588ed8c64ca1597ff49faec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba8c31bd8d72cab377c101de17c39f4') in 0.073018 seconds 
+  Import took 0.080769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/External Assets/Mining Lamp/textures/Tripod_Light_normal.jpeg
+  artifactKey: Guid(53e64c530fadd024fa2b568613c763c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/textures/Tripod_Light_normal.jpeg using Guid(53e64c530fadd024fa2b568613c763c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442f311e689419353694fadd7df22ad8') in 0.074173 seconds 
+  Import took 0.082040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/External Assets/Mining Lamp/textures/Tripod_Light_metallic.jpeg
+  artifactKey: Guid(78d4c863f45c10f4cbf7f8f399c87a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/textures/Tripod_Light_metallic.jpeg using Guid(78d4c863f45c10f4cbf7f8f399c87a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb81a6aa2350decfe870da3daf5011b') in 0.064516 seconds 
+  Import took 0.071822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/External Assets/Mining Lamp/textures/Tripod_Light_emissive.jpeg
+  artifactKey: Guid(f133d5c5441c40b4a8ef3d7de5fde8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/textures/Tripod_Light_emissive.jpeg using Guid(f133d5c5441c40b4a8ef3d7de5fde8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0538c906a931f3f169c4d116a3747d10') in 0.063573 seconds 
+  Import took 0.071263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/External Assets/Mining Lamp/textures/Tripod_Light_AO_0.jpeg
+  artifactKey: Guid(0ad982d21c82c0d4a9a7b0cfe253d801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/textures/Tripod_Light_AO_0.jpeg using Guid(0ad982d21c82c0d4a9a7b0cfe253d801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84126ca4d248ccaa223114680ffad4e0') in 0.068692 seconds 
+  Import took 0.075995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.431314 seconds.
+  path: Assets/External Assets/Mining Lamp/textures/Tripod_Light_normal.jpeg
+  artifactKey: Guid(53e64c530fadd024fa2b568613c763c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Mining Lamp/textures/Tripod_Light_normal.jpeg using Guid(53e64c530fadd024fa2b568613c763c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c926c21fdb094b7b61d72972f0422f21') in 0.055199 seconds 
+  Import took 0.063204 seconds .
+
