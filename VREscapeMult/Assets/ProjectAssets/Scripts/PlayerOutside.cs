@@ -53,11 +53,7 @@ public class PlayerOutside : MonoBehaviour
     #region Script Methods
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
-        {
-            Debug.Log("Player tried to go outside");
-            warningMessage.SetActive(true);
-        }
+        
     }
 
 

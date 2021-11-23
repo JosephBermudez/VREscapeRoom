@@ -62,6 +62,15 @@ public class StayInArea : MonoBehaviour
         
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Debug.Log("Player tried to go outside");
+            warningMessage.SetActive(true);
+        }
+    }
+
     #endregion
 
 }

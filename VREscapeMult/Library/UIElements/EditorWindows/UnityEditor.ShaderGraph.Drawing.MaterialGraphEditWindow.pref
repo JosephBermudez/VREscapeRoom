@@ -20,9 +20,9 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__30ec344a6c9c54f428576e5412c77801__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
   - __PanelContainer__rootVisualContainer__30ec344a6c9c54f428576e5412c77801__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   m_Values:
-  - '{}'
-  - '{}'
-  - '{"position":{"x":714.4000244140625,"y":212.8000030517578,"z":0.0},"scale":{"x":0.46142053604125979,"y":0.46142053604125979,"z":1.0}}'
+  - '{"position":{"x":448.79998779296877,"y":-174.39999389648438,"z":0.0},"scale":{"x":0.26528990268707278,"y":0.26528990268707278,"z":1.0}}'
   - '{"m_Version":0,"m_SelectedElementsArray":[]}'
+  - '{}'
+  - '{}'
   - '{}'
   - '{}'
