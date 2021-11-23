@@ -5027,7 +5027,7 @@ ScriptsOnlyBuild:
     className: MatchController
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 3d938e23a80827efdd95f737e91ccf51
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChangeScene

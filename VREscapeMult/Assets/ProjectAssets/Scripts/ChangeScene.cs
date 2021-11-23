@@ -26,18 +26,28 @@ public class ChangeScene : MonoBehaviour
     #endregion
 
     #region Private Variables
-
+    [SerializeField]
+    private GameObject level1;
+    [SerializeField]
+    private GameObject level2;
 
 
     #endregion
 
     #region MonoBehaviour Callbacks
+    private void Start()
+    {
+        level1.SetActive(true);
+        level2.SetActive(false);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
             Debug.Log("Player should've change to a different scene");
-            SceneManager.LoadScene("Nivel 2");
+            level1.SetActive(false);
+            level2.SetActive(true);
         }
     }
 
