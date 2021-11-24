@@ -10,7 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ContactFire : MonoBehaviour
+public class Level2Manager : MonoBehaviour
 {
     #region Static Variables
 
@@ -19,36 +19,51 @@ public class ContactFire : MonoBehaviour
     #endregion
 
     #region Public Variables
-    public GameObject thisFire;
-    public float firePoint;
+
 
 
     #endregion
 
     #region Private Variables
+    [SerializeField]
+    private Animator doorMotion;
+	
+
     #endregion
 
-    #region MonoBehaviour Callbacks
-
-    private void Start()
+#region MonoBehaviour Callbacks
+    void Awake()
     {
-        thisFire.SetActive(false);
+       
+    }
+    void Start()
+    {
+        
+        
     }
 
-    #endregion
-
-    #region Script Methods
-
-    private void OnTriggerEnter(Collider other)
+    void Update()
     {
-        if (other.tag == "Fire")
+        GameObject fireAmount = GameObject.Find("PiedraTorchKey");
+        ContactFire contactFire = fireAmount.GetComponent<ContactFire>();
+        if (contactFire.firePoint == 1)
         {
-            thisFire.SetActive(true);
-            firePoint = 1;
+            Debug.Log("Door Should be opening");
+            OpenDoor();
         }
-
+        
     }
 
-    #endregion
+#endregion
 
+#region Script Methods
+
+	void OpenDoor()
+    {
+        Debug.Log("You should open the Door");
+        doorMotion.SetBool("PlayMove", true);
+    }
+
+#endregion
+    
 }

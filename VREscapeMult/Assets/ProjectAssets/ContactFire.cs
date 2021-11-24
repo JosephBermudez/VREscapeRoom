@@ -10,56 +10,45 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level2Manager : MonoBehaviour
+public class ContactFire : MonoBehaviour
 {
-#region Static Variables
+    #region Static Variables
 
-	
 
-#endregion
-
-#region Public Variables
-
-	
-
-#endregion
-
-#region Private Variables
-
-	
 
     #endregion
 
-#region MonoBehaviour Callbacks
-    void Awake()
+    #region Public Variables
+    public GameObject thisFire;
+    public float firePoint;
+
+
+    #endregion
+
+    #region Private Variables
+    #endregion
+
+    #region MonoBehaviour Callbacks
+
+    private void Start()
     {
-       
-    }
-    void Start()
-    {
-        
-        
+        thisFire.SetActive(false);
     }
 
-    void Update()
+    #endregion
+
+    #region Script Methods
+
+    private void OnTriggerEnter(Collider other)
     {
-        GameObject fireAmount = GameObject.Find("PiedraTorch");
-        ContactFire contactFire = fireAmount.GetComponent<ContactFire>();
-        if (contactFire.firePoint == 1)
+        if (other.tag == "Fire")
         {
-            OpenDoor();
+            thisFire.SetActive(true);
+            firePoint++;
         }
+
     }
 
-#endregion
+    #endregion
 
-#region Script Methods
-
-	void OpenDoor()
-    {
-        Debug.Log("You should open the Door");
-    }
-
-#endregion
-    
 }
