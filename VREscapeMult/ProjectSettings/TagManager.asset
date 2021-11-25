@@ -9,6 +9,9 @@ TagManager:
   - Bird
   - Gold
   - Chocolate
+  - containerA
+  - containerB
+  - containerC
   layers:
   - Default
   - TransparentFX

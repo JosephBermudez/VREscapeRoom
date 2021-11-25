@@ -48,7 +48,7 @@ public class Level3Manager : MonoBehaviour
     #region Script Methods
     void OpenDoor()
     {
-        Debug.Log("You should open the Door");
+        Debug.Log("You should open the Door Lv3");
         doorMotion.SetBool("PlayMove", true);
     }
 
