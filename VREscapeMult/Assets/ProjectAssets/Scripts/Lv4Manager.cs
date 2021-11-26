@@ -27,12 +27,15 @@ public class Lv4Manager : MonoBehaviour
     #region Private Variables
     [SerializeField]
     private Animator doorMotion;
-	
+
+    [SerializeField]
+    private GameObject teleportActive;
+
 
     #endregion
 
-#region MonoBehaviour Callbacks
-	// Awake is called when the script instance is being loaded
+    #region MonoBehaviour Callbacks
+    // Awake is called when the script instance is being loaded
     void Awake()
     {
        
@@ -40,7 +43,8 @@ public class Lv4Manager : MonoBehaviour
 	// Start is called before the first frame update
     void Start()
     {
-        
+        teleportActive.SetActive(false);
+        ResetContainers();
     }
 
     // Update is called once per frame
@@ -50,6 +54,7 @@ public class Lv4Manager : MonoBehaviour
         {
             Debug.Log("Containers are Full");
             OpenDoor();
+            teleportActive.SetActive(true);
         }
     }
 
@@ -61,6 +66,13 @@ public class Lv4Manager : MonoBehaviour
     {
         Debug.Log("You should open the Door Lv 4");
         doorMotion.SetBool("PlayMove", true);
+    }
+
+    void ResetContainers()
+    {
+        containerA = 0;
+        containerB = 0;
+        containerC = 0;
     }
 
     #endregion

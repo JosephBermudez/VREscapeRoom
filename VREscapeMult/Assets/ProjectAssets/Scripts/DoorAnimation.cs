@@ -29,6 +29,9 @@ public class DoorAnimation : MonoBehaviour
     [SerializeField]
     private Animator doorMotion;
 
+    [SerializeField]
+    private GameObject teleportOption;
+
     #endregion
 
 #region MonoBehaviour Callbacks
@@ -40,7 +43,7 @@ public class DoorAnimation : MonoBehaviour
 	// Start is called before the first frame update
     void Start()
     {
-        
+        teleportOption.SetActive(false);
     }
 
     // Update is called once per frame
@@ -58,6 +61,7 @@ public class DoorAnimation : MonoBehaviour
         {
             Debug.Log("Door should open");
             doorMotion.SetBool("PlayMove", true);
+            teleportOption.SetActive(true);
         }
         
     }

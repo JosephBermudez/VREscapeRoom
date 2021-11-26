@@ -27,19 +27,20 @@ public class Level2Manager : MonoBehaviour
     #region Private Variables
     [SerializeField]
     private Animator doorMotion;
-	
 
+    [SerializeField]
+    private GameObject teleportActive;
     #endregion
 
-#region MonoBehaviour Callbacks
+    #region MonoBehaviour Callbacks
     void Awake()
     {
        
     }
     void Start()
     {
-        
-        
+
+        teleportActive.SetActive(false);
     }
 
     void Update()
@@ -50,6 +51,7 @@ public class Level2Manager : MonoBehaviour
         {
             Debug.Log("Door Should be opening");
             OpenDoor();
+            teleportActive.SetActive(true);
         }
         
     }

@@ -27,12 +27,17 @@ public class Level3Manager : MonoBehaviour
     [SerializeField]
     private Animator doorMotion;
 
+    [SerializeField]
+    private GameObject teleportActive;
 
     #endregion
 
     #region MonoBehaviour Callbacks
 
-
+    private void Start()
+    {
+        teleportActive.SetActive(false);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -40,6 +45,7 @@ public class Level3Manager : MonoBehaviour
         {
             Debug.Log("Level 3 Completed");
             OpenDoor();
+            teleportActive.SetActive(true);
         }
     }
 
