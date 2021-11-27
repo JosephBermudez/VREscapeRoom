@@ -1,31 +1,31 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Trabajo/VREscapeRoom/VREscapeMult/Packages/manifest.json
+    m_FilePath: C:/VREscape/VREscapeRoom/VREscapeMult/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637735346338954542
-    m_Hash: 3714740079
+      ticks: 637732796491176495
+    m_Hash: 3088668623
   m_LockFileStatus:
-    m_FilePath: D:/Trabajo/VREscapeRoom/VREscapeMult/Packages/packages-lock.json
+    m_FilePath: C:/VREscape/VREscapeRoom/VREscapeMult/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637735346338964541
-    m_Hash: 4258770235
+      ticks: 637732796491366541
+    m_Hash: 1620480913
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.microsoft.mixedreality.toolkit.examples@file:D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.2.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.examples@file:C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.2.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.2
       source: 6
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@f9383c01afb8-1637460119181
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@e944075fd6a6-1637080639605
       assetPath: Packages/com.microsoft.mixedreality.toolkit.examples
       name: com.microsoft.mixedreality.toolkit.examples
       displayName: Mixed Reality Toolkit Examples
@@ -91,12 +91,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.2.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.2.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.2
       source: 6
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@561d0043722f-1637460119191
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@c5e4c9d4a8a4-1637080633901
       assetPath: Packages/com.microsoft.mixedreality.toolkit.extensions
       name: com.microsoft.mixedreality.toolkit.extensions
       displayName: Mixed Reality Toolkit Extensions
@@ -161,12 +161,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.2.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.2.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.2
       source: 6
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@ea654a800221-1637460119233
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@3f77644e1050-1637080635209
       assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
       name: com.microsoft.mixedreality.toolkit.foundation
       displayName: Mixed Reality Toolkit Foundation
@@ -227,12 +227,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.2.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.2.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.2
       source: 6
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@98d9c8647e49-1637460119262
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@e9ff57d40829-1637080634416
       assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
       name: com.microsoft.mixedreality.toolkit.standardassets
       displayName: Mixed Reality Toolkit Standard Assets
@@ -299,7 +299,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.1.10
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.normalvr.normcore@2.1.10
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.normalvr.normcore@2.1.10
       assetPath: Packages/com.normalvr.normcore
       name: com.normalvr.normcore
       displayName: Normcore
@@ -413,7 +413,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.2d.sprite@1.0.0
       assetPath: Packages/com.unity.2d.sprite
       name: com.unity.2d.sprite
       displayName: 2D Sprite
@@ -464,7 +464,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.7.1
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.collab-proxy@1.7.1
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.collab-proxy@1.7.1
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -482,9 +482,69 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.2.3-preview
+        - 1.2.4-preview
+        - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.11
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17-preview.3
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.9
+        - 1.5.7
+        - 1.6.0
         - 1.7.1
+        - 1.8.0
+        - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
+        - 1.14.1
+        - 1.14.4
+        - 1.15.1
+        - 1.15.4
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         compatible:
         - 1.7.1
+        - 1.8.0
+        - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
+        - 1.14.1
+        - 1.14.4
+        - 1.15.1
+        - 1.15.4
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         verified: 1.7.1
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
@@ -518,7 +578,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637616921650000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -531,7 +591,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -548,9 +608,57 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
+        - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
         - 2.0.7
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.0.7
         compatible:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
+        - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
         - 2.0.7
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.0.7
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -577,7 +685,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637334461080000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -590,7 +698,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.9
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ide.visualstudio@2.0.9
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ide.visualstudio@2.0.9
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -607,10 +715,40 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
+        - 2.0.7
+        - 2.0.8
         - 2.0.9
+        - 2.0.11
+        - 2.0.12
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
+        - 2.0.7
+        - 2.0.8
         - 2.0.9
-        verified: 2.0.9
+        - 2.0.11
+        - 2.0.12
+        verified: 2.0.12
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -636,20 +774,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637580705480000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 71581391234ac2cefcaa88813bce724458b5db27
+        revision: c7cd4c6319806423b3d918b3e9599244e3993d41
         path: 
     - packageId: com.unity.ide.vscode@1.2.3
       testable: 0
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -666,10 +804,32 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
         - 1.2.3
+        - 1.2.4
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -685,20 +845,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637394922300000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: 547f63839bdc87e0aed2c9e0d84f8f6336a83ea3
+        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
     - packageId: com.unity.postprocessing@3.1.1
       testable: 0
       isDirectDependency: 1
       version: 3.1.1
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.postprocessing@3.1.1
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.postprocessing@3.1.1
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -715,9 +875,47 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.7
+        - 0.1.8
+        - 2.0.0-beta
+        - 2.0.1-beta
+        - 2.0.2-preview
+        - 2.0.3-preview
+        - 2.0.5-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 2.0.9-preview
+        - 2.0.10-preview
+        - 2.0.11-preview
+        - 2.0.12-preview
+        - 2.0.13-preview
+        - 2.0.14-preview
+        - 2.0.15-preview
+        - 2.0.16-preview
+        - 2.0.17-preview
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.1.7
+        - 2.2.1
+        - 2.2.2
+        - 2.3.0
+        - 3.0.1
+        - 3.0.3
+        - 3.1.0
         - 3.1.1
+        - 3.2.0
         compatible:
+        - 2.3.0
+        - 3.0.1
+        - 3.0.3
+        - 3.1.0
         - 3.1.1
+        - 3.2.0
         verified: 3.1.1
       dependencies:
       - name: com.unity.modules.physics
@@ -738,20 +936,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637576678760000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/Graphics.git
-        revision: 5dc459b181c1703751e916083ec53151563b94b6
+        url: git+https://github.com/Unity-Technologies/Graphics.git
+        revision: 075b452f2c4bf910a168632b3cedbd6835477ddd
         path: 
     - packageId: com.unity.render-pipelines.universal@10.5.1
       testable: 0
       isDirectDependency: 1
       version: 10.5.1
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.render-pipelines.universal@10.5.1
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.render-pipelines.universal@10.5.1
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -868,7 +1066,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 10.5.1
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.shadergraph@10.5.1
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.shadergraph@10.5.1
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -1026,7 +1224,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.27
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.test-framework@1.1.27
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.test-framework@1.1.27
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1041,10 +1239,43 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.4-preview
+        - 0.0.29-preview
+        - 1.0.0
+        - 1.0.7
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.13
+        - 1.0.14
+        - 1.0.16
+        - 1.0.17
+        - 1.0.18
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.5
+        - 1.1.8
+        - 1.1.9
+        - 1.1.11
+        - 1.1.13
+        - 1.1.14
+        - 1.1.16
+        - 1.1.18
+        - 1.1.19
+        - 1.1.20
+        - 1.1.22
+        - 1.1.24
+        - 1.1.26
         - 1.1.27
+        - 1.1.29
+        - 1.1.30
         compatible:
         - 1.1.27
-        verified: 1.1.27
+        - 1.1.29
+        - 1.1.30
+        verified: 1.1.30
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -1074,12 +1305,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637594751620000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: c2f2cc9b7ea61d42964257363595dff5e8c47c42
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
@@ -1087,7 +1318,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1122,9 +1353,92 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.2
+        - 1.0.21
+        - 1.0.23
+        - 1.0.25
+        - 1.0.26
+        - 1.1.0
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.0-preview
+        - 1.3.0
+        - 1.4.0-preview.1b
+        - 1.4.0-preview.2a
+        - 1.4.0-preview.3a
+        - 1.4.0
+        - 1.4.1-preview.1
+        - 1.4.1
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 1.5.0-preview.8
+        - 1.5.0-preview.10
+        - 1.5.0-preview.11
+        - 1.5.0-preview.12
+        - 1.5.0-preview.13
+        - 1.5.0-preview.14
+        - 1.5.0
+        - 1.5.1
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.6.0-preview.1
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.1
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0-preview.7
+        - 2.1.0-preview.8
+        - 2.1.0-preview.10
+        - 2.1.0-preview.11
+        - 2.1.0-preview.12
+        - 2.1.0-preview.13
+        - 2.1.0-preview.14
+        - 2.1.0
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.2.0-preview.1
+        - 2.2.0-preview.2
+        - 3.0.0-preview.1
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.5
+        - 3.0.0-preview.7
+        - 3.0.0-preview.8
+        - 3.0.0-preview.10
+        - 3.0.0-preview.11
+        - 3.0.0-preview.12
+        - 3.0.0-preview.13
+        - 3.0.0-preview.14
+        - 3.0.0
+        - 3.0.1
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
         - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 4.0.0-pre.1
         compatible:
         - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -1154,7 +1468,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637547111200000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -1167,7 +1481,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1183,9 +1497,98 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.10
+        - 1.2.11
+        - 1.2.12
+        - 1.2.13
+        - 1.2.14
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17
+        - 1.2.18
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.5
+        - 1.4.0-preview.6
+        - 1.4.0-preview.7
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
+        - 1.4.6
+        - 1.4.7
         - 1.4.8
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.7.0-pre.1
         compatible:
         - 1.4.8
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.7.0-pre.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1223,7 +1626,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637557616100000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -1236,7 +1639,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1299,7 +1702,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.9.1
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.xr.oculus@1.9.1
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.xr.oculus@1.9.1
       assetPath: Packages/com.unity.xr.oculus
       name: com.unity.xr.oculus
       displayName: Oculus XR Plugin
@@ -1314,9 +1717,60 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.9-preview
+        - 0.1.2-preview.1
+        - 0.8.4-preview
+        - 1.0.0-preview.4
+        - 1.0.0
+        - 1.0.2
+        - 1.0.3-preview.1
+        - 1.1.0-preview
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2
+        - 1.1.3-preview
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4-preview.1
+        - 1.1.4
+        - 1.1.5-preview
+        - 1.1.5
+        - 1.2.0-preview.1
+        - 1.2.0
+        - 1.3.1
+        - 1.3.3
+        - 1.3.4
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0
+        - 1.4.3
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0-preview.1
+        - 1.6.0-preview.2
+        - 1.6.1
+        - 1.7.0-preview.1
+        - 1.7.0-preview.2
+        - 1.7.0
+        - 1.8.1
+        - 1.9.0-preview.1
+        - 1.9.0
         - 1.9.1
+        - 1.10.0-preview.1
+        - 1.10.0-preview.2
+        - 1.10.0
+        - 1.10.1-preview.3
+        - 1.11.0
+        - 2.0.0-preview.1
+        - 3.0.0-pre.1
         compatible:
         - 1.9.1
+        - 1.10.0-preview.1
+        - 1.10.0-preview.2
+        - 1.10.0
+        - 1.10.1-preview.3
+        - 1.11.0
         verified: 1.9.1
       dependencies:
       - name: com.unity.xr.management
@@ -1366,7 +1820,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637563688360000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -1379,7 +1833,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1427,7 +1881,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1475,7 +1929,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1523,7 +1977,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1571,7 +2025,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1619,7 +2073,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1671,7 +2125,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1727,7 +2181,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1776,7 +2230,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1824,7 +2278,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1872,7 +2326,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1920,7 +2374,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1968,7 +2422,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2016,7 +2470,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2068,7 +2522,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2116,7 +2570,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2172,7 +2626,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2224,7 +2678,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2272,7 +2726,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2336,7 +2790,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2384,7 +2838,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2440,7 +2894,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2488,7 +2942,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2544,7 +2998,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2600,7 +3054,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2656,7 +3110,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2728,7 +3182,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2780,7 +3234,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2840,7 +3294,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2902,7 +3356,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2950,7 +3404,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3010,7 +3464,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3062,7 +3516,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3121,7 +3575,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.1
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.xr.management@4.0.1
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.xr.management@4.0.1
       assetPath: Packages/com.unity.xr.management
       name: com.unity.xr.management
       displayName: XR Plugin Management
@@ -3138,12 +3592,65 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.0-preview.8
+        - 0.1.0-preview.12
+        - 1.0.0-preview.2
+        - 2.0.0-preview.3
+        - 2.0.0-preview.6
+        - 2.0.0-preview.9
+        - 2.0.0-preview.10
+        - 2.0.0-preview.13
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.0.0-preview.24
+        - 2.0.0-preview.25
+        - 2.0.0-preview.26
+        - 3.0.1
+        - 3.0.2-preview.1
+        - 3.0.2-preview.2
+        - 3.0.3
+        - 3.0.4-preview.1
+        - 3.0.4-preview.3
+        - 3.0.4
+        - 3.0.5-preview.1
+        - 3.0.5
+        - 3.0.6-preview.2
+        - 3.0.6
+        - 3.1.0-preview.2
+        - 3.2.4
+        - 3.2.6
+        - 3.2.7
+        - 3.2.9
+        - 3.2.10
+        - 3.2.11-preview.1
+        - 3.2.12
+        - 3.2.13
+        - 3.2.15
+        - 3.2.16
+        - 3.2.17
+        - 4.0.0-exp.2
+        - 4.0.0-pre.2
+        - 4.0.0-pre.3
         - 4.0.1
+        - 4.0.3
+        - 4.0.5
         - 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
+        - 4.1.0-pre.2
+        - 4.1.0
+        - 4.2.0
         compatible:
         - 4.0.1
+        - 4.0.3
+        - 4.0.5
         - 4.0.6
-        verified: 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
+        - 4.1.0-pre.2
+        - 4.1.0
+        - 4.2.0
+        verified: 4.0.7
       dependencies:
       - name: com.unity.modules.subsystems
         version: 1.0.0
@@ -3190,7 +3697,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637486666900000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3203,7 +3710,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3219,8 +3726,18 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         verified: 1.0.6
       dependencies: []
@@ -3241,7 +3758,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3254,7 +3771,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.5.1
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.render-pipelines.core@10.5.1
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.render-pipelines.core@10.5.1
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -3409,7 +3926,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.3.2
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.searcher@4.3.2
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.searcher@4.3.2
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -3425,9 +3942,37 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
         compatible:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
@@ -3446,7 +3991,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637509898070000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3459,7 +4004,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3475,12 +4020,40 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
+        - 1.2.5
         compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3497,7 +4070,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 636984649280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3510,7 +4083,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -3519,7 +4092,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: library
+      type: 
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -3534,10 +4107,30 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
         compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
-        verified: 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        verified: 2.0.2
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -3553,7 +4146,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3566,7 +4159,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.editorcoroutines@1.0.0
       assetPath: Packages/com.unity.editorcoroutines
       name: com.unity.editorcoroutines
       displayName: Editor Coroutines
@@ -3583,8 +4176,20 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
         - 1.0.0
         compatible:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
         - 1.0.0
         verified: 1.0.0
       dependencies: []
@@ -3605,7 +4210,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637232611380000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3618,7 +4223,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.1.7
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -3638,10 +4243,33 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0
+        - 1.0.2
+        - 1.0.3
+        - 1.3.1
+        - 1.3.2
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.11
+        - 2.0.1
+        - 2.0.2
+        - 2.0.4
+        - 2.0.6
+        - 2.0.8
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.6
         - 2.1.7
+        - 2.1.8
         compatible:
         - 2.1.7
-        verified: 2.1.7
+        - 2.1.8
+        verified: 2.1.8
       dependencies:
       - name: com.unity.modules.vr
         version: 1.0.0
@@ -3676,7 +4304,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637434003470000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3689,7 +4317,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: D:\Trabajo\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.subsystemregistration@1.0.6
+      resolvedPath: C:\VREscape\VREscapeRoom\VREscapeMult\Library\PackageCache\com.unity.subsystemregistration@1.0.6
       assetPath: Packages/com.unity.subsystemregistration
       name: com.unity.subsystemregistration
       displayName: Subsystem Registration
@@ -3705,12 +4333,17 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.4
+        - 1.0.4
+        - 1.0.5
         - 1.0.6
         - 1.1.0
+        - 1.1.1
         compatible:
         - 1.0.6
         - 1.1.0
-        verified: 1.1.0
+        - 1.1.1
+        verified: 1.1.1
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3729,7 +4362,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637056434700000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3739,61 +4372,61 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus:
-    - m_FilePath: D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.2.tgz/package.json
+    - m_FilePath: C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.2.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.2.tgz
+    - m_FilePath: C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.2.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637730569191808688
+        ticks: 637726774396052793
       m_Hash: 2183356902
-    - m_FilePath: D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.2.tgz/package.json
+    - m_FilePath: C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.2.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.2.tgz
+    - m_FilePath: C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.2.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637730569191908716
+        ticks: 637726774339006633
       m_Hash: 3374119249
-    - m_FilePath: D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.2.tgz/package.json
+    - m_FilePath: C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.2.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.2.tgz
+    - m_FilePath: C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.2.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637730569192328806
+        ticks: 637726774352088405
       m_Hash: 822482242
-    - m_FilePath: D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.2.tgz/package.json
+    - m_FilePath: C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.2.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: D:\Trabajo\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.2.tgz
+    - m_FilePath: C:\VREscape\VREscapeRoom\VREscapeMult\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.2.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637730569192618870
+        ticks: 637726774344157791
       m_Hash: 435203005
-m_ProjectPath: D:/Trabajo/VREscapeRoom/VREscapeMult/Packages
+m_ProjectPath: C:/VREscape/VREscapeRoom/VREscapeMult/Packages
 m_EditorVersion: 2020.3.15f2 (6cf78cb77498)
