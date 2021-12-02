@@ -62,6 +62,7 @@ public class DoorAnimation : MonoBehaviour
             Debug.Log("Door should open");
             doorMotion.SetBool("PlayMove", true);
             teleportOption.SetActive(true);
+            StartCoroutine(ChangeLevel());
         }
         
     }
@@ -75,6 +76,11 @@ public class DoorAnimation : MonoBehaviour
         }
     }
 
+    IEnumerator ChangeLevel()
+    {
+        yield return new WaitForSeconds(3);
+        Debug.Log("Jalar");
+    }
 
     #endregion
 
