@@ -1600,7 +1600,7 @@ GameObject:
   - component: {fileID: 120508679}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Key
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1613,8 +1613,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120508677}
   m_LocalRotation: {x: -0, y: 0.74979067, z: -0.6616751, w: 0}
-  m_LocalPosition: {x: 0.835, y: 0.1406, z: 1.8394}
-  m_LocalScale: {x: 0.125223, y: 0.01, z: 0.13753341}
+  m_LocalPosition: {x: 0.835, y: 0.1216, z: 1.8415}
+  m_LocalScale: {x: 0.125223, y: 0.00094302, z: 0.13753341}
   m_Children:
   - {fileID: 1248544867}
   m_Father: {fileID: 1685654313}
@@ -2705,7 +2705,7 @@ GameObject:
   - component: {fileID: 195953733}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Key
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2717,14 +2717,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195953731}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.5167, y: 0.9952, z: -1.391}
-  m_LocalScale: {x: 0.125223, y: 0.01, z: 0.13753341}
+  m_LocalRotation: {x: -0, y: 0.04310164, z: -0, w: -0.99907076}
+  m_LocalPosition: {x: -1.0226, y: 0.0714, z: -1.3578}
+  m_LocalScale: {x: 0.125223, y: 0.00065624993, z: 0.13753341}
   m_Children:
   - {fileID: 1624452846}
   m_Father: {fileID: 1685654313}
   m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 355.059, z: 0}
 --- !u!54 &195953733
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4490,7 +4490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &324132281
 Transform:
   m_ObjectHideFlags: 0
@@ -7162,7 +7162,7 @@ Transform:
   m_GameObject: {fileID: 545062520}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 1.9970001, y: 1.044, z: -0.023}
-  m_LocalScale: {x: 0.15, y: 1, z: 2}
+  m_LocalScale: {x: 0.15, y: 1.1781, z: 2}
   m_Children:
   - {fileID: 1339892509}
   m_Father: {fileID: 1576851416}
@@ -25555,7 +25555,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b4a87fae57020ad4aa1ad052c160b590, type: 3}
   m_Color: {r: 0.35686275, g: 0.14117648, b: 0.09019608, a: 1}
   m_FlipX: 0
@@ -36280,7 +36280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4208062608769021425}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.503, y: 4.195, z: -7.3}
+  m_LocalPosition: {x: -1.987, y: 4.177, z: -6.377}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6250276502036939301}
@@ -36803,6 +36803,7 @@ GameObject:
   - component: {fileID: 2752991787837270010}
   - component: {fileID: 2752991787837270009}
   - component: {fileID: 2752991787837270015}
+  - component: {fileID: 2752991787837270016}
   m_Layer: 0
   m_Name: rock_2
   m_TagString: Untagged
@@ -36948,6 +36949,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8317442, y: 0.5055932, z: 0.59349734}
   m_Center: {x: -0.000000029802322, y: 0, z: 0.00000047683716}
+--- !u!54 &2752991787837270016
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752991787837270008}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2754596052592854327
 GameObject:
   m_ObjectHideFlags: 0
@@ -36966,6 +36983,7 @@ GameObject:
   - component: {fileID: 2754596052592854329}
   - component: {fileID: 2754596052592854328}
   - component: {fileID: 2754596052592854334}
+  - component: {fileID: 2754596052592854335}
   m_Layer: 0
   m_Name: rock_4
   m_TagString: Untagged
@@ -37111,6 +37129,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8317443, y: 0.50559324, z: 0.5934974}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2754596052592854335
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2754596052592854327}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2771901166133347964
 GameObject:
   m_ObjectHideFlags: 0
@@ -37388,6 +37422,7 @@ GameObject:
   - component: {fileID: 4208062608769021429}
   - component: {fileID: 4208062608769021428}
   - component: {fileID: 4208062608769021427}
+  - component: {fileID: 4208062608769021433}
   m_Layer: 0
   m_Name: rock_1
   m_TagString: Untagged
@@ -37533,6 +37568,22 @@ MonoBehaviour:
   - componentID: 1
     component: {fileID: 4208062608769021431}
   _childViews: []
+--- !u!54 &4208062608769021433
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4208062608769021425}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &4273488385471993636
 MeshRenderer:
   m_ObjectHideFlags: 0
