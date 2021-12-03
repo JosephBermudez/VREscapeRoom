@@ -60,3 +60,4 @@ crashlytics-build.properties
 
 VREscapeMult/Temp/UnityLockfile
 VREscapeMult/Library/ArtifactDB
+VREscapeMult/Library/PlayerDataCache/Android/Data/data.unity3d
