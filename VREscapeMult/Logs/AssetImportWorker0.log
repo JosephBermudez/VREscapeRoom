@@ -1444,3 +1444,4 @@ Received Import Request.
 Start importing Assets/External Assets/mictlantecutli-figure/textures/Mictlantecuhtli.jpg using Guid(9b8114c80c611e646bae42edae883eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfcdd71b0bbb334598583912d8d6e89') in 0.054755 seconds 
   Import took 0.062633 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
