@@ -5117,3 +5117,172 @@ Received Import Request.
 Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b1a70562ab6998055aa4c273d852d9') in 0.013065 seconds 
   Import took 0.021759 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2211.780626 seconds.
+  path: Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav
+  artifactKey: Guid(1340d7fb0cd1bfb4caa3b3270cb2ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav using Guid(1340d7fb0cd1bfb4caa3b3270cb2ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7aed1aa30ec1eafe9a1e535c76adec') in 0.086821 seconds 
+  Import took 0.100302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/External Assets/Materials/Aged Wood/Aged Wood.mat
+  artifactKey: Guid(c395acedd917e0e43988125d86f6d9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Materials/Aged Wood/Aged Wood.mat using Guid(c395acedd917e0e43988125d86f6d9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670496efc384717b3ca67202e74b050a') in 0.173943 seconds 
+  Import took 0.181732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370390 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx
+  artifactKey: Guid(6ec0c875cb1c94e40afcad0a0161eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx using Guid(6ec0c875cb1c94e40afcad0a0161eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe8255b074bf752e7e227713fc98fec') in 0.080797 seconds 
+  Import took 0.088701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_02_dif.png
+  artifactKey: Guid(b7600ae2b00af42b3b06a37401929b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_02_dif.png using Guid(b7600ae2b00af42b3b06a37401929b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd028e77a5d6bea3549e1b7b391615f14') in 0.069987 seconds 
+  Import took 0.077698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_albedo.tif
+  artifactKey: Guid(0c37609404d082e479147912b10e633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_albedo.tif using Guid(0c37609404d082e479147912b10e633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5213f1384dafbe055ef986139afd4f') in 0.026929 seconds 
+  Import took 0.034765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_ao.tif
+  artifactKey: Guid(f7afa7117b991be4f8ec2ea97a0e0eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_ao.tif using Guid(f7afa7117b991be4f8ec2ea97a0e0eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673301d70f9ed2c490f519a8d9217074') in 0.027530 seconds 
+  Import took 0.035536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_01_msm.png
+  artifactKey: Guid(2a6b2bd66cb8348619282685a3e7d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_01_msm.png using Guid(2a6b2bd66cb8348619282685a3e7d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dadebe89510d5490115d463862ad542') in 0.075678 seconds 
+  Import took 0.083199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_roughness.tif
+  artifactKey: Guid(3b1dbc69ad141554b8adc6838706daab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_roughness.tif using Guid(3b1dbc69ad141554b8adc6838706daab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10133fbc2b582fd66921a8ebe42f3532') in 0.039886 seconds 
+  Import took 0.047514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_01_nml.png
+  artifactKey: Guid(bce2993b95d184bc09d1cf9c304086d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_01_nml.png using Guid(bce2993b95d184bc09d1cf9c304086d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6021fe8fdf23d4506535389d2fa7fe6') in 0.070403 seconds 
+  Import took 0.078486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_02_msm.png
+  artifactKey: Guid(ed587ec08f0b14bb58a1cd80e8d4fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_02_msm.png using Guid(ed587ec08f0b14bb58a1cd80e8d4fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e645d9f47a64b90b028b165c53a0af') in 0.077570 seconds 
+  Import took 0.085809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/WoodBlock.mat
+  artifactKey: Guid(163257dbf13bb9b4ebf2e088c4a50b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/WoodBlock.mat using Guid(163257dbf13bb9b4ebf2e088c4a50b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0989e6de83f55447a009132f9f245103') in 0.066727 seconds 
+  Import took 0.074544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Prefabs/OculusWoodBlockPf.prefab
+  artifactKey: Guid(8ee9798876077ae49951b86fabc77fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Prefabs/OculusWoodBlockPf.prefab using Guid(8ee9798876077ae49951b86fabc77fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd3ec9e5bce69b380dc3c07b9caa72a') in 0.057734 seconds 
+  Import took 0.065820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/Prefabs/OutlineItems/DistanceGrabWoodBlockPf.prefab
+  artifactKey: Guid(ea7023a21c9958f439273c740ffccda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/Prefabs/OutlineItems/DistanceGrabWoodBlockPf.prefab using Guid(ea7023a21c9958f439273c740ffccda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a188c8941d27f849448878f6818c842f') in 0.038233 seconds 
+  Import took 0.046194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_01_dif.png
+  artifactKey: Guid(47c72aea7837946679d91402f5af8665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_01_dif.png using Guid(47c72aea7837946679d91402f5af8665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf1c87ad1f4da315c8ee4f67e5b8534') in 0.070154 seconds 
+  Import took 0.078693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_02_nml.png
+  artifactKey: Guid(67017b977ca8e4564bb2e427adc76f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_02_nml.png using Guid(67017b977ca8e4564bb2e427adc76f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede1cc81b73ee25fe74aff6ff31afaf5') in 0.066354 seconds 
+  Import took 0.073980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Prefabs/OculusWoodBlockNoPhysPf.prefab
+  artifactKey: Guid(70c07dd50d6ddb74fbfa78eccee120c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Prefabs/OculusWoodBlockNoPhysPf.prefab using Guid(70c07dd50d6ddb74fbfa78eccee120c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544532aa2b6d0c50c5bff5c5f5cfaaf1') in 0.054551 seconds 
+  Import took 0.062502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/WoodBlockWithOutline.mat
+  artifactKey: Guid(3a4cc84819795469da40d14888581e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/WoodBlockWithOutline.mat using Guid(3a4cc84819795469da40d14888581e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e74f7be076ff34ab5caf44b5b23e4e') in 0.039649 seconds 
+  Import took 0.047462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_height.tif
+  artifactKey: Guid(03fe716e7668b084fb2b2ead96141773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_height.tif using Guid(03fe716e7668b084fb2b2ead96141773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7129ae02fd20a8724e7a1b40c73a7df') in 0.040781 seconds 
+  Import took 0.048735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_normal.tif
+  artifactKey: Guid(005a1a85aeb4f204091f7232f01f3623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Materials/Aged Wood/TexturesCom_Wood_Rough_1K_normal.tif using Guid(005a1a85aeb4f204091f7232f01f3623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff77c66bfed8812a419a8ab5397817f3') in 0.041861 seconds 
+  Import took 0.050509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_wood_02.mat
+  artifactKey: Guid(c5de2de29649946caa67f57a9825cfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_wood_02.mat using Guid(c5de2de29649946caa67f57a9825cfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9707988ca7fe965dd15bba2f4583cd3') in 0.188001 seconds 
+  Import took 0.196202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_wood_01.mat
+  artifactKey: Guid(5d1946ce7cee747e6aa39a6ea4350e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_wood_01.mat using Guid(5d1946ce7cee747e6aa39a6ea4350e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e9125910391b80444437e1c79424cd') in 0.167648 seconds 
+  Import took 0.175656 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
