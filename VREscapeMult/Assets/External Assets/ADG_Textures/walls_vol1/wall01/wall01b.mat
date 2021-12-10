@@ -22,8 +22,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: wall01b
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _EMISSION _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
-  m_LightmapFlags: 1
+  m_ShaderKeywords: _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
+  m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
@@ -116,10 +116,10 @@ Material:
     - _Glossiness: 0.155
     - _GlossyReflections: 1
     - _LightmapShading: 0.37307692
-    - _Metallic: 0
+    - _Metallic: 0.36
     - _Mode: 0
     - _OcclusionStrength: 0.45
-    - _Parallax: 0.015522384
+    - _Parallax: 0.0189
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Rot: 0

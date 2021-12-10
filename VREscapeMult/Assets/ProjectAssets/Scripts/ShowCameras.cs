@@ -49,6 +49,11 @@ public class ShowCameras : MonoBehaviour
         {
             cctvSetup.SetActive(true);
         }
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            cctvSetup.SetActive(false);
+        }
     }
 
 #endregion
