@@ -14,7 +14,7 @@ public class CheckCollision : MonoBehaviour
 {
     #region Static Variables
 
-
+    public string tag;
 
     #endregion
 
@@ -47,7 +47,7 @@ public class CheckCollision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Bird")
+        if (other.tag == tag)
         {
             levelManager.totalValue++;
         }
@@ -56,7 +56,7 @@ public class CheckCollision : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Bird")
+        if (other.tag == tag)
         {
             levelManager.totalValue--;
         }

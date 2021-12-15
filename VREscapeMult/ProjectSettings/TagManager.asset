@@ -12,6 +12,11 @@ TagManager:
   - containerA
   - containerB
   - containerC
+  - KeyA
+  - KeyB
+  - KeyC
+  - KeyE
+  - KeyD
   layers:
   - Default
   - TransparentFX

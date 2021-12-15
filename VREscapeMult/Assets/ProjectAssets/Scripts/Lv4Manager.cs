@@ -50,7 +50,7 @@ public class Lv4Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (containerA == 4 && containerB == 3 && containerC == 2)
+        if (containerA >= 4 && containerB >= 3 && containerC >= 2)
         {
             Debug.Log("Containers are Full");
             OpenDoor();
