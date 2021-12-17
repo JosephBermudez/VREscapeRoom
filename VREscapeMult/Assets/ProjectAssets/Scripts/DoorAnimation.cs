@@ -20,7 +20,7 @@ public class DoorAnimation : MonoBehaviour
 
     #region Public Variables
 
-
+    public AudioSource doorOpen;
 
     #endregion
 
@@ -60,9 +60,9 @@ public class DoorAnimation : MonoBehaviour
         if (other.tag == "Key")
         {
             Debug.Log("Door should open");
-            doorMotion.SetBool("PlayMove", true);
+            doorMotion.SetBool("LevelComplete", true);
             teleportOption.SetActive(true);
-            StartCoroutine(ChangeLevel());
+            doorOpen.Play();
         }
         
     }
@@ -72,16 +72,9 @@ public class DoorAnimation : MonoBehaviour
         if (other.tag == "Key")
         {
             Debug.Log("Door should close");
-            doorMotion.SetBool("PlayMove", false);
+            doorMotion.SetBool("LevelComplete", false);
         }
     }
-
-    IEnumerator ChangeLevel()
-    {
-        yield return new WaitForSeconds(3);
-        Debug.Log("Jalar");
-    }
-
     #endregion
 
 }
