@@ -19,16 +19,16 @@ public class Level5Manager : MonoBehaviour
 #endregion
 
 #region Public Variables
-    public int key;
+    public int key,cageKey;
     public Animator movementDoor;
     public Animator doorEscape;
+    public AudioSource stoneGate;
 	
 
 #endregion
 
 #region Private Variables
 
-	private bool cageOpen = false;
 
     #endregion
 
@@ -36,7 +36,8 @@ public class Level5Manager : MonoBehaviour
 	// Awake is called when the script instance is being loaded
     void Awake()
     {
-       
+       cageKey = 0;
+       key = 0;
     }
 	// Start is called before the first frame update
     void Start()
@@ -47,18 +48,8 @@ public class Level5Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (cageOpen == true)
-        {
-            movementDoor.SetBool("OpenCage",true);
-        }
-        if (key == 3)
-        {
-            cageOpen = true;
-        }
-        else if (key == 5)
-        {
-            doorEscape.SetBool("PlayMove",true);
-        }
+
+        
     }
 
 #endregion

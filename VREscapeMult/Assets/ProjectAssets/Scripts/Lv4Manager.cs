@@ -20,16 +20,18 @@ public class Lv4Manager : MonoBehaviour
 
     #region Public Variables
     public int containerA,containerB,containerC;
+    public GameObject teleportActive;
+    public Animator doorMotion;
 
 
     #endregion
 
     #region Private Variables
-    [SerializeField]
-    private Animator doorMotion;
+   
+    
 
-    [SerializeField]
-    private GameObject teleportActive;
+    
+    
 
 
     #endregion
@@ -50,19 +52,19 @@ public class Lv4Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (containerA >= 4 && containerB >= 3 && containerC >= 2)
+        /*if (containerA >= 4 && containerB >= 3 && containerC >= 2)
         {
             Debug.Log("Containers are Full");
             OpenDoor();
             teleportActive.SetActive(true);
-        }
+        }*/
     }
 
     #endregion
 
     #region Script Methods
 
-    void OpenDoor()
+    public void OpenDoor()
     {
         Debug.Log("You should open the Door Lv 4");
         doorMotion.SetBool("PlayMove", true);

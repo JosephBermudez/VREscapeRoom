@@ -20,6 +20,8 @@ public class CounterItem : MonoBehaviour
 
     #region Public Variables
     public string tag;
+    public AudioSource voidSound;
+    public AudioSource openDoor;
 
 
     #endregion
@@ -34,7 +36,7 @@ public class CounterItem : MonoBehaviour
 #region MonoBehaviour Callbacks
     void Start()
     {
-        levelManager.containerA = 0;
+
     }
 
     // Update is called once per frame
@@ -56,22 +58,33 @@ public class CounterItem : MonoBehaviour
                 print("Contenedor 1");
                 levelManager.containerA++;
                 Destroy(other.gameObject);
+                voidSound.Play();
                 break;
 
                 case "containerB":
                 print("Contenedor 2");
                 levelManager.containerB++;
+                voidSound.Play();
                 Destroy(other.gameObject);
                 break;
 
                 case "containerC":
                 print("Contenedor 3");
                 levelManager.containerC++;
+                voidSound.Play();
                 Destroy(other.gameObject);
                 break;
             }
+            
         }
-        
+        if (levelManager.containerA == 4 && levelManager.containerB == 3 && levelManager.containerC == 2)
+            {
+                Debug.Log("Audio deberia reproducirse");
+                openDoor.PlayOneShot(openDoor.clip);
+                levelManager.OpenDoor();
+                levelManager.teleportActive.SetActive(true);
+                
+            }   
     }
 
 

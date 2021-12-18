@@ -18,6 +18,8 @@ public class CheckKey : MonoBehaviour
     public Level5Manager level5Manager;
     public Animator pressure;
 
+    public AudioSource keyPad, platePressure, cageGate;
+
 #endregion
 
 #region Public Variables
@@ -63,6 +65,8 @@ public class CheckKey : MonoBehaviour
                 case "KeyA":
                 print("Contenedor 1");
                 level5Manager.key++;
+                level5Manager.cageKey++;
+                keyPad.Play();
                 Destroy(other.gameObject);
                 Destroy(gameObject);
                 break;
@@ -70,6 +74,8 @@ public class CheckKey : MonoBehaviour
                 case "KeyB":
                 print("Contenedor 2");
                 level5Manager.key++;
+                level5Manager.cageKey++;
+                keyPad.Play();
                 Destroy(other.gameObject);
                 Destroy(gameObject);
                 break;
@@ -77,6 +83,8 @@ public class CheckKey : MonoBehaviour
                 case "KeyC":
                 print("Contenedor 3");
                 level5Manager.key++;
+                level5Manager.cageKey++;
+                keyPad.Play();
                 Destroy(other.gameObject);
                 Destroy(gameObject);
                 break;
@@ -84,14 +92,31 @@ public class CheckKey : MonoBehaviour
                  case "KeyD":
                 print("Contenedor 3");
                 level5Manager.key++;
+                level5Manager.cageKey++;
+                platePressure.Play();
                 pressure.SetBool("KeyOn",true);
                 break;
 
                  case "KeyE":
                 print("Contenedor 3");
                 level5Manager.key++;
+                level5Manager.cageKey++;
+                platePressure.Play();
                 pressure.SetBool("KeyOn",true);
                 break;
+            }
+
+            if (level5Manager.cageKey == 3)
+            {
+                level5Manager.movementDoor.SetBool("OpenCage",true);
+                cageGate.PlayOneShot(cageGate.clip);
+            }
+
+            if (level5Manager.key == 5)
+            {
+                level5Manager.stoneGate.PlayOneShot(level5Manager.stoneGate.clip);
+                level5Manager.doorEscape.SetBool("PlayMove",true);
+                
             }
         }
     }

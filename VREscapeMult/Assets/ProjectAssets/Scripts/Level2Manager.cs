@@ -19,7 +19,7 @@ public class Level2Manager : MonoBehaviour
     #endregion
 
     #region Public Variables
-
+    public AudioSource doorSound;
 
 
     #endregion

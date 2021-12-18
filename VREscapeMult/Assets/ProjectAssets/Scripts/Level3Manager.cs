@@ -19,6 +19,7 @@ public class Level3Manager : MonoBehaviour
     #endregion
 
     #region Public Variables
+    public AudioSource gateDoor;
     public float totalValue;
 
     #endregion
@@ -41,23 +42,18 @@ public class Level3Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ( totalValue== 3)
-        {
-            Debug.Log("Level 3 Completed");
-            OpenDoor();
-            teleportActive.SetActive(true);
-        }
+        
     }
 
     #endregion
 
     #region Script Methods
-    void OpenDoor()
+    public void OpenDoor()
     {
+        teleportActive.SetActive(true);
         Debug.Log("You should open the Door Lv3");
         doorMotion.SetBool("PlayMove", true);
     }
-
 
     #endregion
 

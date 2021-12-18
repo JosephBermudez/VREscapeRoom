@@ -20,6 +20,7 @@ public class ContactFire : MonoBehaviour
 
     #region Public Variables
     public GameObject thisFire;
+    public AudioSource fireOn, doorOn;
     public float firePoint;
 
 
@@ -43,6 +44,8 @@ public class ContactFire : MonoBehaviour
     {
         if (other.tag == "Fire")
         {
+            fireOn.PlayOneShot(fireOn.clip);
+            doorOn.PlayOneShot(doorOn.clip);
             thisFire.SetActive(true);
             firePoint++;
         }
