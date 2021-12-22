@@ -16,8 +16,6 @@ ScriptsOnlyBuild:
     - Normal.Realtime.Examples.HoverbirdPlayer
     - Normal.Realtime.Examples.VoiceMouthMove
     - OculusRefreshController
-    - OvrAvatar
-    - OvrAvatarLocalDriver
     - OvrAvatarSettings
     - ShowCameras
     - StayInArea
@@ -76,9 +74,12 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.ConstraintManager
     - Microsoft.MixedReality.Toolkit.UI.CursorContextObjectManipulator
     - Microsoft.MixedReality.Toolkit.UI.FaceUserConstraint
+    - Microsoft.MixedReality.Toolkit.UI.MoveAxisConstraint
     - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
     Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile
+    Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll:
+    - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfileInspector
     Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile
     Microsoft.MixedReality.Toolkit.Services.InputSystem.dll:
@@ -402,6 +403,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4988}
     - Class: 114
+      Script: {instanceID: 5082}
+    - Class: 114
       Script: {instanceID: 5106}
     - Class: 114
       Script: {instanceID: 5136}
@@ -421,8 +424,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5714}
     - Class: 114
       Script: {instanceID: 5736}
-    - Class: 114
-      Script: {instanceID: 5744}
     - Class: 114
       Script: {instanceID: 5846}
     - Class: 114
@@ -467,8 +468,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7224}
     - Class: 114
       Script: {instanceID: 7230}
-    - Class: 114
-      Script: {instanceID: 7284}
     - Class: 114
       Script: {instanceID: 7314}
     - Class: 114
