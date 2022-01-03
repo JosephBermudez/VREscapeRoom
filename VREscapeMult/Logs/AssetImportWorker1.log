@@ -213,3 +213,4 @@ Received Import Request.
 Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b5c65330e8216d07d42e3ceb57c072') in 0.009400 seconds 
   Import took 0.017851 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
