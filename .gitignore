@@ -58,7 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-VREscapeMult/Temp/UnityLockfile
-VREscapeMult/Library/ArtifactDB
-VREscapeMult/Library/PlayerDataCache/Android/Data/data.unity3d
-VREscapeMult/Library/ArtifactDB
+/Temp/UnityLockfile
+/Library/ArtifactDB
+/Library/PlayerDataCache/Android/Data/data.unity3d
