@@ -1452,165 +1452,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a1406f55ad069c841a711213695a9dad, type: 3}
   m_PrefabInstance: {fileID: 63027188}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &63068014 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-  m_PrefabInstance: {fileID: 1372380084}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &63068015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63068014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 0
-  IsBoundsHandles: 0
---- !u!114 &63068016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63068014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 181cd563a8349c34ea8978b0bc8d9c7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hostTransform: {fileID: 1372380085}
-  manipulationType: 3
-  twoHandedManipulationType: 3
-  allowFarManipulation: 1
-  useForcesForNearManipulation: 0
-  oneHandRotationModeNear: 1
-  oneHandRotationModeFar: 1
-  releaseBehavior: 3
-  transformSmoothingLogicType:
-    reference: Microsoft.MixedReality.Toolkit.Utilities.DefaultTransformSmoothingLogic,
-      Microsoft.MixedReality.Toolkit.SDK
-  smoothingFar: 1
-  smoothingNear: 1
-  moveLerpTime: 0.001
-  rotateLerpTime: 0.001
-  scaleLerpTime: 0.001
-  enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
-  elasticsManager: {fileID: 0}
-  onManipulationStarted:
-    m_PersistentCalls:
-      m_Calls: []
-  onManipulationEnded:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &63068017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63068014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
---- !u!114 &63068018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63068014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30bdd3ae35d064140b81250bc35189d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ownershipTimeOutTime: 1
---- !u!114 &63068019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63068014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &63068020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63068014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 1068807715}
-  _sceneViewUUID: 
-  _viewUUID: da9b840c-b196-43b2-b2fa-05f59e92d1c0
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 63068019}
-  _childViews: []
---- !u!65 &63068021
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63068014}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.16304962, z: 0.19918324}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &63068022
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63068014}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &66102309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7398,7 +7239,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b4f167fc21fb0fb48b029619d56e8eca, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b4f167fc21fb0fb48b029619d56e8eca, type: 3}
       propertyPath: m_LocalScale.x
@@ -7547,7 +7388,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -8123,7 +7964,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -8505,7 +8346,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -9569,7 +9410,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -10130,7 +9971,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e15e0b62e8606bb40bac3cef9b9596cd, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e15e0b62e8606bb40bac3cef9b9596cd, type: 3}
       propertyPath: m_LocalScale.x
@@ -10146,15 +9987,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e15e0b62e8606bb40bac3cef9b9596cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.09514186
+      value: 0.116
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e15e0b62e8606bb40bac3cef9b9596cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3215
+      value: 0.348
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e15e0b62e8606bb40bac3cef9b9596cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.0754979
+      value: 2.076
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e15e0b62e8606bb40bac3cef9b9596cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10255,8 +10096,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2.5, z: 1.5}
-  m_Center: {x: 0.023091486, y: -0.11864684, z: 0}
+  m_Size: {x: 2.5021322, y: 3.127665, z: 1.8765993}
+  m_Center: {x: 0.023091553, y: 0.19518624, z: -1.3368022e-12}
 --- !u!114 &397002010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10315,7 +10156,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 397002013}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -10759,7 +10600,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4946cace0f99134b90fe6d4beb0caaf, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4946cace0f99134b90fe6d4beb0caaf, type: 3}
       propertyPath: m_LocalScale.x
@@ -10779,7 +10620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4946cace0f99134b90fe6d4beb0caaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0817
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4946cace0f99134b90fe6d4beb0caaf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10841,8 +10682,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4946cace0f99134b90fe6d4beb0caaf, type: 3}
   m_PrefabInstance: {fileID: 404483886}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &404483889
-CapsuleCollider:
+--- !u!65 &404483889
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10851,10 +10692,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.017998207
-  m_Height: 0.06368721
-  m_Direction: 0
-  m_Center: {x: -0.0073728906, y: 0.002307199, z: -0.06262988}
+  serializedVersion: 2
+  m_Size: {x: 0.063655324, y: 0.030240187, z: 0.030773567}
+  m_Center: {x: -0.0030875718, y: 0.007420396, z: -0.06262986}
 --- !u!114 &404483890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10913,7 +10753,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 404483893}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -11071,7 +10911,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 39d83c88036d6684685761e290992b69, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39d83c88036d6684685761e290992b69, type: 3}
       propertyPath: m_LocalScale.x
@@ -11422,7 +11262,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 39d83c88036d6684685761e290992b69, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39d83c88036d6684685761e290992b69, type: 3}
       propertyPath: m_LocalScale.x
@@ -11514,7 +11354,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalScale.x
@@ -11534,39 +11374,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0923
+      value: 0.07047202
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.7221533
+      value: -1.7562792
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.63725424
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.4111929
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5476713
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.35338885
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -7.874
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 446.414
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -65.418
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 925538437e8bfc14dbcee1f0f9b1cb68, type: 3}
       propertyPath: m_Name
@@ -11615,8 +11455,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.045582257, y: 0.076595396, z: 0.057962514}
-  m_Center: {x: -0.0013558537, y: 0.038297698, z: 0.003616225}
+  m_Size: {x: 0.07939822, y: 0.13341898, z: 0.13950545}
+  m_Center: {x: -0.0013558534, y: 0.06670949, z: -0.015655007}
 --- !u!54 &456240784
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11691,7 +11531,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -21085,7 +20925,6 @@ Transform:
   - {fileID: 1072358077}
   - {fileID: 235436496}
   - {fileID: 2067344646}
-  - {fileID: 1372380085}
   - {fileID: 1351246031}
   - {fileID: 1156831133}
   - {fileID: 1985983337}
@@ -21504,7 +21343,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -27698,6 +27537,7 @@ GameObject:
   - component: {fileID: 963194231}
   - component: {fileID: 963194230}
   - component: {fileID: 963194232}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -27770,6 +27610,29 @@ Transform:
   m_Father: {fileID: 1777410524}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -36.434, y: -88.286, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockCursorWhenFocusLocked: 1
+  setCursorInvisibleWhenFocusLocked: 0
+  maxGazeCollisionDistance: 10
+  raycastLayerMasks:
+  - serializedVersion: 2
+    m_Bits: 4294967291
+  stabilizer:
+    storedStabilitySamples: 60
+  gazeTransform: {fileID: 0}
+  minHeadVelocityThreshold: 0.5
+  maxHeadVelocityThreshold: 2
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29247,7 +29110,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cd34e1fd0a4609c46989ba3b2996c590, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd34e1fd0a4609c46989ba3b2996c590, type: 3}
       propertyPath: m_LocalScale.x
@@ -32061,7 +31924,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36479,7 +36342,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5f1f827262ccc724299ff19863a2b962, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5f1f827262ccc724299ff19863a2b962, type: 3}
       propertyPath: m_LocalScale.x
@@ -36608,7 +36471,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 1344516507}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -36717,8 +36580,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.28828406, y: 0.2686298, z: 0.432759}
-  m_Center: {x: 0.000456292, y: 0.057607662, z: -0.022782305}
+  m_Size: {x: 0.42424735, y: 0.58326244, z: 0.6368609}
+  m_Center: {x: 0.000456292, y: 0.1515771, z: 0.079268195}
 --- !u!1001 &1351246030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36728,7 +36591,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36946,80 +36809,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0a9ea10bd26ea594491955213c3ce132, type: 3}
   m_PrefabInstance: {fileID: 1354690762}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1372380084
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 661008717}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.692
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.139
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.7577
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.8305418
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.55695635
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 67.691
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_Name
-      value: model (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
---- !u!4 &1372380085 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d38af5e1ad684b9498fbd7a98944d876, type: 3}
-  m_PrefabInstance: {fileID: 1372380084}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1381703792
 GameObject:
@@ -38142,7 +37931,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bb8f75b97590aba4ab066fd515973052, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bb8f75b97590aba4ab066fd515973052, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38263,7 +38052,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 1445285759}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -38374,8 +38163,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.1, z: 0.1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.48472396, y: 0.16157465, z: 0.16157465}
+  m_Center: {x: 0, y: 0, z: -0.030787326}
 --- !u!1001 &1449169607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38543,7 +38332,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cd34e1fd0a4609c46989ba3b2996c590, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd34e1fd0a4609c46989ba3b2996c590, type: 3}
       propertyPath: m_LocalScale.x
@@ -40498,7 +40287,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -40592,8 +40381,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 35, z: 1.5}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.5, y: 98.51799, z: 1.5}
+  m_Center: {x: 0, y: 31.758999, z: 0}
 --- !u!23 &1487195951
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44001,7 +43790,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 87ddddc7393750c4f83d7eb47142ac08, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 87ddddc7393750c4f83d7eb47142ac08, type: 3}
       propertyPath: m_LocalScale.x
@@ -44126,7 +43915,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -44246,15 +44035,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.2989
+      value: -0.312
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1102
+      value: 0.0649
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_LocalPosition.z
@@ -44262,23 +44051,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.90183014
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.43209082
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 51.201
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c07d24607ee0e9499d07bbc82388d02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -44359,7 +44148,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 1616789363}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -44468,8 +44257,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.04, y: 0.15, z: 0.03}
-  m_Center: {x: 0.025066325, y: -0.021192346, z: 0.0009217763}
+  m_Size: {x: 0.05513251, y: 0.20674692, z: 0.05995395}
+  m_Center: {x: 0.02579841, y: -0.021192342, z: -0.005827263}
 --- !u!1 &1619719331
 GameObject:
   m_ObjectHideFlags: 0
@@ -44958,7 +44747,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ffd7e3ce33b674944bb18cd43d4aa320, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ffd7e3ce33b674944bb18cd43d4aa320, type: 3}
       propertyPath: m_LocalScale.x
@@ -45098,7 +44887,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 1628088774}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -45207,8 +44996,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.03282946, y: 0.0023640206, z: 0.032731663}
-  m_Center: {x: -0.01768077, y: -0.040508527, z: 0.0034334853}
+  m_Size: {x: 0.03282946, y: 0.0061278916, z: 0.032731663}
+  m_Center: {x: -0.017680775, y: -0.038626596, z: 0.0034334855}
 --- !u!1 &1632098814
 GameObject:
   m_ObjectHideFlags: 0
@@ -49701,7 +49490,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -50693,7 +50482,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -50787,8 +50576,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 35, z: 1.5}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.5, y: 102.400345, z: 1.5000002}
+  m_Center: {x: -0, y: 33.700172, z: 0}
 --- !u!23 &1857806559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53436,7 +53225,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 63068017}
+  constraintsManager: {fileID: 0}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -53576,7 +53365,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 661008717}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1985983338
 AudioSource:
@@ -54088,7 +53877,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cd34e1fd0a4609c46989ba3b2996c590, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd34e1fd0a4609c46989ba3b2996c590, type: 3}
       propertyPath: m_LocalScale.x
