@@ -512,9 +512,11 @@ m_PackageAssets:
         - 1.14.1
         - 1.14.4
         - 1.14.7
+        - 1.14.9
         - 1.15.1
         - 1.15.4
         - 1.15.7
+        - 1.15.9
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -536,9 +538,11 @@ m_PackageAssets:
         - 1.14.1
         - 1.14.4
         - 1.14.7
+        - 1.14.9
         - 1.15.1
         - 1.15.4
         - 1.15.7
+        - 1.15.9
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -637,6 +641,8 @@ m_PackageAssets:
         - 3.0.5
         - 3.0.6
         - 3.0.7
+        - 3.0.9
+        - 3.0.10
         compatible:
         - 1.0.2
         - 1.0.6
@@ -663,6 +669,8 @@ m_PackageAssets:
         - 3.0.5
         - 3.0.6
         - 3.0.7
+        - 3.0.9
+        - 3.0.10
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1012,6 +1020,7 @@ m_PackageAssets:
         - 10.6.0
         - 10.7.0
         - 10.8.0
+        - 10.8.1
         compatible:
         - 10.5.0
         - 10.5.1
@@ -1183,6 +1192,7 @@ m_PackageAssets:
         - 10.6.0
         - 10.7.0
         - 10.8.0
+        - 10.8.1
         compatible:
         - 10.5.0
         - 10.5.1
@@ -3648,6 +3658,7 @@ m_PackageAssets:
         - 4.1.0-pre.2
         - 4.1.0
         - 4.2.0
+        - 4.2.1
         compatible:
         - 4.0.1
         - 4.0.3
@@ -3658,6 +3669,7 @@ m_PackageAssets:
         - 4.1.0-pre.2
         - 4.1.0
         - 4.2.0
+        - 4.2.1
         verified: 4.0.7
       dependencies:
       - name: com.unity.modules.subsystems
@@ -3894,6 +3906,7 @@ m_PackageAssets:
         - 10.6.0
         - 10.7.0
         - 10.8.0
+        - 10.8.1
         compatible:
         - 10.5.0
         - 10.5.1
